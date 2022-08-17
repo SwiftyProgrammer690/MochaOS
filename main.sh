@@ -22,7 +22,7 @@ rm -rf apps
 echo "$(tput setaf 46)Booting..."
 
 #git clone https://github.com/Leafboi111/LeafOS
-git clone --quiet https://github.com/Leafboi111/LeafOS > /dev/null
+git clone --quiet https://github.com/SwiftyProgrammer690/MochaOS > /dev/null
 
 rm -rf apps
 

@@ -38,12 +38,12 @@ function main {
   while true
   do
     tput setaf 250
-    select input in nodeupd devrun 2048 nodecal nodecalc nodeterm nodetxt One_Strike_And_You\'re_Out tetris
+    select input in nodeupd devrun 2048 mocalender nodecalc nodeterm mochapad One_Strike_And_You\'re_Out tetris
     do
       cmpio "$input"
       clear
-      tput setaf 46
-      echo "Welcome to LeafOS!"; echo
+      tput setaf 180
+      echo "Welcome to MochaOS!"; echo
       tput setaf 45
       date +"%D %T"
       break
@@ -51,8 +51,8 @@ function main {
   done
 }
 
-tput setaf 46
-echo "Welcome to LeafOS!"; echo
+tput setaf 180
+echo "Welcome to MochaOS!"; echo
 
 tput setaf 45
 date +"%D %T"

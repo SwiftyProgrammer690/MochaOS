@@ -26,9 +26,9 @@ git clone --quiet https://github.com/SwiftyProgrammer690/MochaOS > /dev/null
 
 rm -rf apps
 
-cp -r LeafOS/apps apps
+cp -r MochaOS/apps apps
 
-rm -rf LeafOS
+rm -rf MochaOS
 
 chmod 777 os/*
 chmod 777 apps/*

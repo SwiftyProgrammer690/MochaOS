@@ -1,0 +1,5 @@
+Help:
+update: runs nodeupd, the updator for LeafOS
+run: runs applications listed
+devrun: runs applications you made
+help: displays help file

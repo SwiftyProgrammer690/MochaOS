@@ -13,15 +13,14 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-echo "$(tput setaf 46)_    ____ ____ ____ ____ ____ "
-echo "$(tput setaf 46)|    |___ |__| |___ |  | [__  "
-echo "$(tput setaf 46)|___ |___ |  | |    |__| ___] "
+echo "$(tput setaf 180)_    _ ______ _____ |   |   /\     ______  _____"
+echo "$(tput setaf 180)|\  /| |    | |     |---|  /--\    |    |  |____"
+echo "$(tput setaf 180)| \/ | |____| |____ |   | /    \   |____|  _____|"
 
 rm -rf apps
 
-echo "$(tput setaf 46)Booting..."
+echo "$(tput setaf 46)Booting Up..."
 
-#git clone https://github.com/Leafboi111/LeafOS
 git clone --quiet https://github.com/SwiftyProgrammer690/MochaOS > /dev/null
 
 rm -rf apps

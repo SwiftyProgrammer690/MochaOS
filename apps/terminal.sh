@@ -20,7 +20,7 @@ function main {
   while true
   do
     currentDate=`date +"%T"`
-    read -p "$(tput setaf 10)mocha_terminal$(tput setaf 7):$(tput setaf 4)$currentDate$(tput setaf 7)\$ " input
+    read -p "$(tput setaf 10)mochav1.0.0@mocha_terminal$(tput setaf 7):$(tput setaf 4)$currentDate$(tput setaf 7)\$ " input
     $input
   done
 

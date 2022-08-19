@@ -27,7 +27,7 @@ if choice1 == "LeafOS":
         else:
             print("Wrong")
             time.sleep(2)
-           quit()
+            quit()
     else:
         print("Wrong!")
         time.sleep(2)

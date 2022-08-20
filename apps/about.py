@@ -1,5 +1,8 @@
 # Made by Swarit Choudhari
 import time
+import os
+
+os.system('clear')
 
 print("MochaOS ☕☕☕")
 print("v1.0.0\n")

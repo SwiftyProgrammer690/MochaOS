@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# LeafOS
+# MochaOS
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -38,7 +38,7 @@ function main {
   while true
   do
     tput setaf 250
-    select input in about mochaupd devrun 2048 mocalender nodecalc terminal mochapad One_Strike_And_You\'re_Out tetris moquiz
+    select input in about mochaupd devrun 2048 mocalender nodecalc terminal mochapad One_Strike_And_You\'re_Out tetris moquiz clock
     do
       cmpio "$input"
       clear

@@ -38,7 +38,7 @@ function main {
   while true
   do
     tput setaf 250
-    select input in about mochaupd devrun 2048 mocalender nodecalc terminal mochapad One_Strike_And_You\'re_Out tetris moquiz stopwatch
+    select input in about mochaupd devrun 2048 mocalender nodecalc terminal mochapad tetris moquiz stopwatch
     do
       cmpio "$input"
       clear
